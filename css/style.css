@@ -170,6 +170,7 @@ section.equipe h2{
 	transform: translate(-50%,0%);
 }
 
+
 .user-picture-child{
 	position: absolute;
 	left: 0;
@@ -177,7 +178,9 @@ section.equipe h2{
 	width: 100%;
 	border-radius: 50%;
 	height: 100%;
-	background-color:#ccc;
+	background-image: url('../images/user.jpg');
+	background-size: cover;
+
 }
 
 section.final-site{
