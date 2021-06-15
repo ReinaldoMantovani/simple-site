@@ -21,7 +21,7 @@
           <a class="navbar-brand" href="#">Web-Dev</a>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="">Home</a></li>
+            <li class=""><a href="">Home</a></li>
             <li><a href="sobre">Sobre</a></li>
             <li><a href="contato">Contato</a></li>
           </ul>
@@ -45,7 +45,7 @@
           <div class="container">
             <div class="row text-center">
                 <div class="col-md-6">
-                  <h2><span class="glyphicon glyphicon-star" aria-hidden="true"></span> Entre na nossa lista!</h2>
+                  <h2><span id="envelope" class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Entre na nossa lista!</h2>
                 </div>
                 <div class="col-md-6">
                   <form method="post">
@@ -176,7 +176,7 @@
 
                   <div class="col-md-6">
                     <h2>Fale conosco</h2>
-                    <form>
+                    <form method="post">
                         <div class="form-group">
                           <label for="email">Nome:</label>
                           <input type="text" name="nome" class="form-control" id="nome">

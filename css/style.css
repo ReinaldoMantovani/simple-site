@@ -18,7 +18,17 @@
 
 
 span {
-	color: black;
+	color: rgba(2, 146, 172, 0.596);
+}
+
+#envelope {
+	top: 5px;
+	margin-right: 10px;
+}
+
+button[type='submit'] {
+	background-color: blue;
+	border: none;
 }
 /***/
 
